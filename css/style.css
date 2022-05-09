@@ -53,7 +53,7 @@ body {
 nav.navigation {
   margin-left: 93px;
 }
-.navigation-items li:not(:last-child) {
+.navigation-item:not(:last-child) {
   margin-right: 50px;
 }
 .main-nav {
@@ -68,7 +68,7 @@ header.header {
   margin-bottom: 32px;
   margin-left: auto;
 }
-.header-contacts li:not(:last-child) {
+.contact-item:not(:last-child) {
   margin-right: 50px;
 }
 .header-contacts .link {
