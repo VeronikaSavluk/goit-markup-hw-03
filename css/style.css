@@ -76,7 +76,7 @@ header.header {
 }
 /* Hero */
 .hero {
-  padding: 200px 0;
+
   background-color: #2f303a;
 }
 .hero-title,
@@ -108,11 +108,15 @@ header.header {
   background-color: var(--accent-btn-color);
 }
 /* Studio */
-.section-studio,
-.section-team,
-.section-portfolio {
+.section {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.section:nth-child(3) {
+  padding-top: 0;
+}
+.main-studio .section:first-child {
+padding: 200px 0;
 }
 .studio-item {
   margin-right: 30px;
@@ -152,9 +156,6 @@ margin-right: 0;
 .studio-headline {
   display: none;
   color: var(--primery-bg-color);
-}
-.section-perfomence{
-  padding-bottom: 94px;
 }
 .perfomence-item {
   margin-right: 30px;
